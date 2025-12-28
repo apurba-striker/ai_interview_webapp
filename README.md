@@ -18,9 +18,10 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+5. 🧪 [Testing](#testing)
+6. 🕸️ [Snippets (Code to Copy)](#snippets)
+7. 🔗 [Assets](#links)
+8. 🚀 [More](#more)
 
 
 
@@ -118,6 +119,32 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+## <a name="testing">🧪 Testing</a>
+
+This project uses **Jest** and **React Testing Library** for unit and integration testing.
+
+**Running Tests**
+
+To run the tests once:
+
+```bash
+npm test
+```
+
+To run tests in watch mode (interactive):
+
+```bash
+npm run test:watch
+```
+
+**Test Coverage**
+
+The current testing setup covers:
+- **Unit Tests**: Key components like `AuthForm`, `InterviewCard`, `FormField`, and `DisplayTechIcons`.
+- **Integration Tests**: Component interactions and state changes.
+
+Tests are located in `components/__tests__` directory.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
